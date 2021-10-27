@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+
+body {
+    background-image: url('./pics/swamp.jpeg');
+    background-size: cover;
+}
+
+h1 {
+    margin: 1em .2em;
+    color: #D1E000;
+    display: inline;
+}
+
+img {
+    height: 2em;
+    display: inline;
+    transform: translateY(-5px);
+}
+
+.left {
+    transform: scaleX(-1) translateY(-5px); 
+
+}
+
+textarea {
+    background-color: #cfdb2a;
+    color: #4F5400;
+    font-size: 1.5em;
+}
+
+input {
+    background-color: #cfdb2a;
+    color: #4F5400;
+    font-size: 1.2em;
+}
+
+.old-font {
+    font-family: 'Tangerine', cursive;
+    font-size: 1.5em;
+    padding: .2em .2em;
+    text-align: center;
+    margin-left: .5em;
+}
